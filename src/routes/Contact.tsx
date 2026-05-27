@@ -5,8 +5,6 @@ import {
   Card,
   CardBody,
   CardTitle,
-  CardText,
-  List,
 } from "reactstrap";
 
 export default function Contact() {

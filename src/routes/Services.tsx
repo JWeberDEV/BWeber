@@ -7,10 +7,6 @@ import {
   Col,
   Badge,
   List,
-  Card,
-  CardTitle,
-  CardBody,
-  CardText,
 } from "reactstrap";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
