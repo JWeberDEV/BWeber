@@ -24,55 +24,6 @@ export default function Contact() {
                 Estamos prontos para elevar o padrão tecnológico do seu <br />{" "}
                 negócio no Paraguai. Escolha o canal de sua preferência.
               </p>
-              <Card
-                className="my-3 border rounded-3 shadow-sm"
-                style={{
-                  backgroundColor: "rgba(20, 20, 20, 0.4)",
-                  backdropFilter: "blur(12px)",
-                  WebkitBackdropFilter: "blur(12px)",
-                  borderColor: "rgba(255, 255, 255, 0.08)",
-                }}
-              >
-                <CardBody className="p-4">
-                  <div
-                    className="d-flex align-items-center gap-2 mb-3"
-                    style={{
-                      color: "#F0C940",
-                      fontSize: "0.85rem",
-                      fontWeight: "bold",
-                      letterSpacing: "1px",
-                    }}
-                  >
-                    <span style={{ fontSize: "1.2rem" }}>💬</span>
-                    <span>RESPOSTA EM ATÉ 1H</span>
-                  </div>
-                  <CardTitle
-                    tag="h2"
-                    className="text-white text-start mb-4"
-                    style={{
-                      fontFamily: "'Playfair Display', Georgia, serif",
-                      fontSize: "2.5rem",
-                      fontWeight: "400",
-                      lineHeight: "1.2",
-                    }}
-                  >
-                    Fale direto com um especialista
-                  </CardTitle>
-                  <button
-                    className="btn d-inline-flex align-items-center gap-2 px-4 py-3 text-white font-weight-bold"
-                    style={{
-                      backgroundColor: "#00E676", // Verde idêntico ao da imagem
-                      border: "none",
-                      borderRadius: "12px",
-                      fontSize: "0.9rem",
-                      fontWeight: "700",
-                      letterSpacing: "0.5px",
-                    }}
-                  >
-                    <span>💬</span> INICIAR CONVERSA AGORA
-                  </button>
-                </CardBody>
-              </Card>
             </Col>
             <Col></Col>
           </Row>
