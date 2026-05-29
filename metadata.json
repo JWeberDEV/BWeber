@@ -1,0 +1,6 @@
+{
+  "name": "BWeber Digital",
+  "description": "Plataforma de transformação digital e engenharia de software sob medida para o mercado imobiliário de alto padrão no Paraguai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

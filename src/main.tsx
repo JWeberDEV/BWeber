@@ -1,10 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { RouterProvider } from 'react-router-dom';
-import routes from './routes.tsx';
+import {StrictMode} from 'react';
+import {createRoot} from 'react-dom/client';
+import App from './App.tsx';
+import {I18nProvider} from './i18n/I18nContext.tsx';
+import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={routes} />
-  </StrictMode>
-)
+    <I18nProvider>
+      <App />
+    </I18nProvider>
+  </StrictMode>,
+);

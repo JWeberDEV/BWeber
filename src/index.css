@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+
+@theme {
+  --color-surface-container-low: #1b1b1b;
+  --color-surface-tint: #dbc836;
+  --color-surface-container-high: #2a2a2a;
+  --color-on-tertiary: #303030;
+  --color-tertiary-fixed: #e4e2e1;
+  --color-on-error-container: #ffdad6;
+  --color-tertiary-container: #e0dedd;
+  --color-on-secondary-fixed-variant: #34466d;
+  --color-surface-container: #1f1f1f;
+  --color-primary-fixed-dim: #dbc836;
+  --color-outline: #96917b;
+  --color-on-primary-fixed-variant: #504700;
+  --color-primary-container: #f4e04d;
+  --color-surface-variant: #353535;
+  --color-error-container: #93000a;
+  --color-on-primary-fixed: #201c00;
+  --color-outline-variant: #4a4734;
+  --color-inverse-surface: #e2e2e2;
+  --color-border-muted: #2d2d2d;
+  --color-on-surface-variant: #cdc7ae;
+  --color-on-tertiary-fixed: #1b1c1c;
+  --color-inverse-on-surface: #303030;
+  --color-surface: #131313;
+  --color-on-surface: #e2e2e2;
+  --color-on-primary-container: #6e6200;
+  --color-surface-container-highest: #353535;
+  --color-inverse-primary: #6a5f00;
+  --color-surface-white: #ffffff;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-on-background: #e2e2e2;
+  --color-on-secondary: #1d2f55;
+  --color-surface-bright: #393939;
+  --color-tertiary-fixed-dim: #c8c6c6;
+  --color-secondary: #b4c6f4;
+  --color-on-tertiary-fixed-variant: #474747;
+  --color-secondary-fixed: #d9e2ff;
+  --color-primary: #fffaf3;
+  --color-secondary-container: #34466d;
+  --color-error: #ffb4ab;
+  --color-background: #131313;
+  --color-on-tertiary-container: #626261;
+  --color-on-error: #690005;
+  --color-text-muted: #a1a1a1;
+  --color-on-primary: #373100;
+  --color-secondary-fixed-dim: #b4c6f4;
+  --color-tertiary: #fdfafa;
+  --color-surface-dim: #131313;
+  --color-on-secondary-container: #a3b5e2;
+  --color-primary-fixed: #f8e451;
+  --color-on-secondary-fixed: #041a3f;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Manrope", sans-serif;
+  
+  --spacing-container-max: 1280px;
+  --spacing-margin-desktop: 64px;
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 20px;
+  --spacing-base: 8px;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #e2e2e2;
+  font-family: var(--font-sans);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.luxury-gradient {
+  background: linear-gradient(180deg, rgba(10, 31, 68, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.luxury-gradient-card {
+  background: linear-gradient(145deg, #0A1F44 0%, #050E20 100%);
+}
