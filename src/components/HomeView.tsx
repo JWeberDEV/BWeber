@@ -1,4 +1,4 @@
-import profissionais from "../../assets/img/profissionais.png";
+import CEOS from "../../assets/img/CEOS.png";
 import { ActiveTab } from "../types";
 import { ArrowRight, MessageSquare, Monitor, TrendingUp, Cpu, Award } from "lucide-react";
 import { useI18n } from "../i18n/I18nContext";
@@ -159,7 +159,7 @@ export default function HomeView({ setActiveTab, onOpenWhatsApp }: HomeViewProps
             <img
               alt={t.home.foundersImgAlt}
               className="w-full h-[550px] object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out scale-102 group-hover:scale-100"
-              src={profissionais}
+              src={CEOS}
             />
           </div>
 
